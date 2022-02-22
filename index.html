@@ -135,7 +135,7 @@
                 </div>
                 <!-- skill Grid Items-->
                 <div class=" border shadow-sm">
-                    <div class="row my-md-0 my-3">
+                    <div class="row my-md-2 my-3">
                         <div class="col-md-1 me-2 col-sm-12 ">
                             <img src="/assets/img/portfolio/html.png"  width="50px" height="50px"  alt="">
                         </div>
@@ -146,7 +146,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row my-md-0 my-3">
+                    <div class="row my-md-2 my-3">
                         <div class="col-md-1 me-2 col-sm-12 ">
                             <img src="/assets/img/portfolio/css.png"  width="50px" height="50px"  alt="">
                         </div>
@@ -157,7 +157,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row my-md-0 my-3">
+                    <div class="row my-md-2 my-3">
                         <div class="col-md-1 me-2 col-sm-12 ">
                             <img src="/assets/img/portfolio/jl.PNG"  width="50px" height="50px"  alt="">
                         </div>
@@ -168,7 +168,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="row my-md-0 my-3">
+                    <div class="row my-md-2 my-3">
                         <div class="col-md-1 me-2 col-sm-12 ">
                             <img src="/assets/img/portfolio/englogo.png"  width="50px" height="50px"  alt="">
                         </div>
@@ -193,10 +193,10 @@
                 <!-- skill Grid Items-->
                         <div class=" border shadow-sm ">
                             <div class="row m-5">
-                               <div class="col-12 fs-6">2.7.2002</div>
-                               <div class="col-12 fs-5">Htun Soe Hsan</div>
-                               <div class="col-12"><a href="tel: 09456965336">09456965336</a></div>
-                               <div class="col-12"><a href="mailto: htunsoesann733@gmail.com">htunsoesann733@gmail.com</a></div>
+                               <div class="col-12 fs-6"><ion-icon name="calendar" class="contact-icon"></ion-icon> 2.7.2002</div>
+                               <div class="col-12 fs-5"><ion-icon name="person" class="contact-icon"></ion-icon> Htun Soe Hsan</div>
+                               <div class="col-12"><ion-icon name="phone-portrait" class="contact-icon"></ion-icon> <a href="tel: 09456965336"> 09456965336</a></div>
+                               <div class="col-12"><ion-icon name="mail" class="contact-icon"></ion-icon > <a href="mailto: htunsoesann733@gmail.com"> htunsoesann733@gmail.com</a></div>
                             </div>
                     </div>
             </div>
@@ -217,7 +217,7 @@
                 <div class="row">
                     <div class="col-lg-4 ms-auto"><p class="lead"><img src="/assets/img/portfolio/ps.jpg" class="img-fluid rounded-start" alt="..."></p></div>
                     <div class="col-lg-4 me-auto"><p class="lead">
-                        By the year 2000, I was born at a country village . 
+                        I was born at a country village . 
                         I attened the primary school at my native village.When I was grade 8 ,
                         I joined the middle school at sittwe called A. T. K (2). After passing the 
                         lastexam of state school ,I applied Computer University in Sittwe It was since
@@ -316,6 +316,8 @@
         <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *-->
         <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
         <!-- for jquery -->
+        <!-- for icon -->
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
         <!-- email sending -->
         <script src="https://smtpjs.com/v3/smtp.js"></script>
         <script>
@@ -331,7 +333,7 @@
                         Subject : "This is the subject",
                         Body : document.getElementById("message").value
                     }).then(
-                    message => alert(message)
+                    message => alert("Sending Success!")
                     );
             }
         </script>
